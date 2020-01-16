@@ -1,0 +1,15 @@
+
+Description: >
+    Mudathir Lawal / Udacity
+    This template deploys a VPC.
+    LastUpdate: 06/01/2020
+Resources: 
+    UdacityVPC:
+        Type: AWS::EC2::VPC
+        Properties: 
+            CidrBlock: 10.0.0.0/16
+            EnableDnsHostnames: true    
+
+
+
+
